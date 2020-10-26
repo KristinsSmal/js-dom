@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-DOM</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="clock"></div>
+<!-- задали div class і в js прописуєм деталі годинника -->
+
+    <h1>Hello</h1>   
+
+    <input type="text" class="new-product">
+    <button class="add-product">Add product</button>
+<!-- створили віконечко, де вводити новий продукт 
+    і додали кнопку (справа) Add product + прописали деталі в js -->
+
+
+    <div class="products"></div>
+    <button class="showProducts">Show Products</button>
+<!-- задали <div class="products"></div> тут,
+    додали знизу кнопку showProducts + прописуєм деталі в js 
+    для цього ж <div class="products"></div> -->
+
+    <div class="calculator"> <!--  -->
+        <input type="text" class="display" placeholder="0" readonly>
+        <div class="digits">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>0</button>
+        </div>
+        <div class="operators">
+            <button>+</button>
+            <button>/</button>
+        </div>
+        <button class="eq">=</button>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
